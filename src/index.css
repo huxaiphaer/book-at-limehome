@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#submit-button {
+  background-color: #0b5d0b !important;
+  padding: 0.8em 3em !important;
+  color: white !important;
+  margin-bottom: 0.5em !important;
+}
+#submit-button:disabled {
+  cursor: not-allowed !important;
+  pointer-events: all !important;
+  background-color: darkgray !important;
+  color: black !important;
+}
+
+#submit-button:hover {
+  background-color: darkgray !important;
+}
